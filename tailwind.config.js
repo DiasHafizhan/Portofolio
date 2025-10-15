@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}", // PASTIKAN PATH INI BENAR
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-
