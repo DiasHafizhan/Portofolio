@@ -33,16 +33,16 @@ const Navbar = () => {
       </div>
       <ul className={`flex items-center gap-4 fixed transition-all duration-300 ease-in-out left-1/2 -translate-x-1/2 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl sm:gap-10 md:-translate-x-0 md:static md:opacity-100 md:top-0 ${active ? 'top-0 opacity-100' : '-top-10 opacity-0'}`}>
         <li>
-          <a href="" className='sm:text-lg text-base font-medium'>Beranda</a>
+          <a href="#beranda" className='sm:text-lg text-base font-medium'>Beranda</a>
         </li>
         <li>
-          <a href="" className='sm:text-lg text-base font-medium'>Tentang</a>
+          <a href="#about" className='sm:text-lg text-base font-medium'>Tentang</a>
         </li>
         <li>
-          <a href="" className='sm:text-lg text-base font-medium'>Proyek</a>
+          <a href="#proyek" className='sm:text-lg text-base font-medium'>Proyek</a>
         </li>
         <li>
-          <a href="" className='sm:text-lg text-base font-medium'>Kontak</a>
+          <a href="#kontak" className='sm:text-lg text-base font-medium'>Kontak</a>
         </li>
       </ul>
     </div>
